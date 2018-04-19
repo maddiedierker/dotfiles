@@ -1,6 +1,7 @@
 [user]
 	name = Maddie Kasula
 	email = madelynkasula@gmail.com
+# thanks to https://trevordmiller.com/projects/nova for sample nova .gitconfig
 [color]
   pager = true
   ui = auto
