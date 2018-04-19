@@ -1,6 +1,11 @@
 [user]
 	name = Maddie Kasula
 	email = madelynkasula@gmail.com
+[alias]
+  co = checkout
+  st = status
+  com = commit -m
+  cam = commit -am
 # thanks to https://trevordmiller.com/projects/nova for sample nova .gitconfig
 [color]
   pager = true
