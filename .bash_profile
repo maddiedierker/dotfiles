@@ -1,6 +1,7 @@
 # Aliases
-alias open="atom"
+alias o="open"
 alias gs="git status"
+alias gp="git push"
 
 # Git branch parsing
 parse_git_dirty() {
@@ -17,6 +18,9 @@ parse_git_branch() {
 
 # PS1
 export PS1="\[$(tput setaf 5)\]\W\[$(tput setaf 6)\]@\[$(tput setaf 5)\]\T \[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput setaf 6)\]///\[$(tput sgr0)\] "
+
+# Editor
+export EDITOR="atom"
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
