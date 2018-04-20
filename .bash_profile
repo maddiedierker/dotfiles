@@ -22,5 +22,5 @@ export PS1="\[$(tput setaf 5)\]\W\[$(tput setaf 6)\]@\[$(tput setaf 5)\]\T \[$(t
 # Editor
 export EDITOR="atom"
 
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# Rbenv
+eval "$(rbenv init -)"
