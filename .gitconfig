@@ -58,3 +58,5 @@
   selected = normal
   separator = red bold
   linenumber = normal
+[core]
+	excludesfile = /Users/madelynkasula/.gitignore_global
