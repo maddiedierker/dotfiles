@@ -1,6 +1,6 @@
 [user]
-	name = Maddie Kasula
-	email = madelynkasula@gmail.com
+  name = Maddie Kasula
+  email = madelynkasula@gmail.com
 [alias]
   co = checkout
   st = status
@@ -59,4 +59,4 @@
   separator = red bold
   linenumber = normal
 [core]
-	excludesfile = /Users/madelynkasula/.gitignore_global
+  excludesfile = /Users/madelynkasula/.gitignore_global
